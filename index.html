@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harmonious Color Palette Generator by Cathy Patton</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🎨 Harmonious Color Palette Generator</h1>
+  
+  <p style="margin-top: -1rem; margin-bottom: 2rem; font-size: 1rem;">
+    <i>Enter a color HEX code below or just click "Generate Matches" to receive a random color <br>and four harmonious matches. </i>
+</p>
+
+  <div class="input-group">
+    <input type="text" id="colorInput" placeholder="Enter base color (HEX or HSL)" />
+    <button id="generateBtn">Generate Matches</button>
+  </div>
+  
+  <p style="margin-top: -1rem; margin-bottom: 2rem; font-size: 1rem;">
+  Need help finding a color HEX code?
+  <a href="https://coolors.co/colors" target="_blank" rel="noopener noreferrer">Try this free color library</a>. 
+  </p>
+
+  <div id="palette" class="palette"></div>
+
+  <script src="script.js"></script>
+  
+  <br><br>
+  
+  <p style="margin-top: -1rem; margin-bottom: 2rem; font-size: 1rem;">
+    Click any color to copy the HEX code.
+  </p>
+</body>
+</html>
