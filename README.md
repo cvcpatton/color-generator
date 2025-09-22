@@ -17,7 +17,7 @@ A front-end web application that generates harmonious color schemes using HTML, 
 
 
 **How to Run**  
-Run it in your browser at this link on GitHub Pages.  
+Run it in your browser at [this link on GitHub Pages](https://cvcpatton.github.io/color-generator/index.html).  
 🌐 Live Demo  
 
 **Sample Output**
