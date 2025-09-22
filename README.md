@@ -16,11 +16,9 @@ A front-end web application that generates harmonious color schemes using HTML, 
 * JavaScript – logic and color generation  
 
 
-**How to Run**
-
-Run it in your browser at this link on GitHub Pages.
-
-🌐 Live Demo
+**How to Run**  
+Run it in your browser at this link on GitHub Pages.  
+🌐 Live Demo  
 
 **Sample Output**
 ![Color Generator screenshot](color-generator-screenshot.jpg)
