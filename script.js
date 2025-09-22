@@ -57,7 +57,8 @@ function getHarmoniousColors(base) {
     { label: 'Analogous', h: (h + 30) % 360, s, l },
     { label: 'Complementary', h: (h + 180) % 360, s, l },
     { label: 'Triadic', h: (h + 120) % 360, s, l },
-    { label: 'Monochromatic', h, s, l: (l + 20) % 100 }
+    { label: 'Monochromatic Light', h, s, l: Math.min(l + 20, 95) },
+    { label: 'Monochromatic Dark', h, s, l: Math.max(l - 20, 5) }
   ];
 }
 
